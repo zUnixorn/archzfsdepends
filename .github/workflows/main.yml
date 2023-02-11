@@ -5,4 +5,4 @@ jobs:
   update-repo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/update-repo@1.0
+      - uses: ./
