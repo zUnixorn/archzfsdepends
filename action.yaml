@@ -1,0 +1,8 @@
+name: 'Update repo'
+description: 'Get the version of the latest archzfs kernel module add them to the repo'
+outputs:
+  repo: # id of output
+    description: 'The repo dir'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
