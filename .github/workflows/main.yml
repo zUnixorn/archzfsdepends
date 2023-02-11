@@ -1,0 +1,8 @@
+on:
+  schedule:
+    - cron:  '* 8 * * *' # 08:00 UTC
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/update-repo@1.0
