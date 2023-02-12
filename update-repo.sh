@@ -24,6 +24,9 @@ echo "setting username and user email"
 git config --global user.name "zUnixorn"
 git config --global user.email "dev@jonascrull.de"
 
+echo "adding repo"
+git add *
+
 echo "commiting packages"
 git commit -m "updated repo"
 
