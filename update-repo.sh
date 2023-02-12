@@ -2,7 +2,7 @@
 
 echo "cloning repo"
 if [ ! -d archzfsdepends ] ; then
-  git clone git@github.com:zUnixorn/archzfsdepends.git archzfsdepends
+  git clone https://github.com/zUnixorn/archzfsdepends.git archzfsdepends
 else
   cd archzfsdepends
 fi
