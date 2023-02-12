@@ -7,6 +7,10 @@ else
   cd archzfsdepends
 fi
 
+
+echo "git repo seems to belong to another user, this should fix it (https://stackoverflow.com/questions/72978485)"
+git config --global --add safe.directory '*'
+
 echo "checking out repo"
 git checkout github-pages
 
